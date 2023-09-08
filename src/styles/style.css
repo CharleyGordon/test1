@@ -543,15 +543,6 @@ figure .button {
     background-size: contain;
   }
 
-  body {
-    margin-block-start: var(--header-height);
-  }
-
-  header {
-    position: fixed;
-    top: 0;
-  }
-
   img {
     max-width: 100%;
   }
