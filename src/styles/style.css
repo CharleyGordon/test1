@@ -557,7 +557,7 @@ figure .button {
   }
 
   .amount {
-    width: 90vw;
+    width: fit-content;
   }
 
   dialog {
