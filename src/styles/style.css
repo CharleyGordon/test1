@@ -503,6 +503,14 @@ figure .button {
     font-size: 4vw;
   }
 
+  img {
+    max-width: 100%;
+  }
+
+  .pushed-down.pushed-down {
+    gap: 0;
+  }
+
   .distinctions {
     display: grid;
     justify-content: center;
@@ -519,6 +527,10 @@ figure .button {
 
   .bottom-figure {
     background-size: 100%;
+  }
+
+  .parallax-image {
+    background-size: 150%;
   }
 }
 
