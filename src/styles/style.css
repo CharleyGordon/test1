@@ -14,6 +14,11 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
+
+body {
+  padding-block-start: var(--header-height);
+}
+
 body > * {
   width: 100vw;
 }
@@ -142,7 +147,7 @@ h3 + hr {
 }
 
 header {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   padding-block: var(--header-padding, 1rem);
