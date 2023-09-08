@@ -63,7 +63,7 @@ body > * {
   scroll-padding-top: var(--header-height);
 }
 
-body > * {
+body > *:not(nav) {
   overflow-x: hidden;
 }
 
