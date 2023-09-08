@@ -503,10 +503,6 @@ figure .button {
     font-size: 4vw;
   }
 
-  img {
-    max-width: 100%;
-  }
-
   .pushed-down.pushed-down {
     gap: 0;
   }
@@ -528,15 +524,19 @@ figure .button {
   .bottom-figure {
     background-size: 100%;
   }
-
-  .parallax-image {
-    background-size: 150%;
-  }
 }
 
 @media (max-width: 600px) {
   .bottom-figure {
     background-size: contain;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .parallax-image {
+    background-size: 150%;
   }
 }
 
