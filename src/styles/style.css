@@ -196,7 +196,6 @@ body,
 .subheader,
 .distinctions > figure {
   flex-direction: column;
-  /* position: relative; */
 }
 .info .logo {
   --width: 720px;
@@ -544,6 +543,15 @@ figure .button {
     background-size: contain;
   }
 
+  body {
+    margin-block-start: var(--header-height);
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+  }
+
   img {
     max-width: 100%;
   }
@@ -597,10 +605,6 @@ figure .button {
   h2 + hr {
     --heading-gap: 1rem;
   }
-
-  /* h2 + hr {
-    margin-block-start: -2rem;
-  } */
 
   figcaption p {
     justify-self: center;
